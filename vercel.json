@@ -6,6 +6,7 @@
   "framework": "nextjs",
   "regions": ["fra1"],
   "env": {
-    "NEXT_PUBLIC_GEMINI_API_KEY": "@gemini_api_key"
+    "NEXT_PUBLIC_GEMINI_API_KEY_1": "@gemini_api_key_1",
+    "NEXT_PUBLIC_GEMINI_API_KEY_2": "@gemini_api_key_2"
   }
 } 
