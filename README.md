@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WriteWise - English Learning Platform
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![WriteWise Logo](public/logo.svg)
 
+[![Next.js](https://img.shields.io/badge/Next.js-14.1-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Google Gemini](https://img.shields.io/badge/AI-Gemini-orange?style=for-the-badge&logo=google)](https://deepmind.google/technologies/gemini/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+[English](#english) | [Türkçe](#türkçe)
+
+</div>
+
+## English
+
+WriteWise is an innovative English learning platform that helps users improve their writing skills through AI-powered feedback. The application generates random topics and provides instant, detailed evaluations of users' written responses.
+
+### ✨ Features
+
+- 🎯 AI-powered random topic generation
+- 📝 Minimum 3-sentence writing task
+- 🤖 Advanced AI evaluation system
+- 🌟 30-point scoring system
+- 🎨 Modern and responsive design
+- 🌍 Multi-language support (Turkish and Azerbaijani)
+- 🔄 Real-time feedback
+- 📊 Detailed writing analysis
+- 💡 Writing tips and suggestions
+
+### 🚀 Technologies
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Google Gemini AI API
+
+### 🛠️ Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/rasperon/writewise.git
+cd writewise
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Create `.env.local` file and add your Gemini API key:
+```bash
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Start the development server:
+```bash
+yarn dev
+```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+### 🤝 Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Feel free to submit issues and pull requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📝 License
 
-## Deploy on Vercel
+MIT
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Türkçe
+
+Modern ve interaktif bir İngilizce öğrenme web uygulaması. Kullanıcılar rastgele konular üzerinde İngilizce yazma pratikleri yapabilir ve anında geri bildirim alabilirler.
+
+### Özellikler
+
+- 🎯 Rastgele konu üretimi
+- 📝 En az 3 cümlelik İngilizce yazma görevi
+- 🤖 Yapay zeka destekli değerlendirme
+- 🌟 30 puan üzerinden puanlama sistemi
+- 🎨 Modern ve duyarlı tasarım
+- 🌍 Türkçe ve Azərbaycan dili desteği
+
+### Kurulum
+
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/rasperon/writewise.git
+cd writewise
+```
+
+2. Bağımlılıkları yükleyin:
+```bash
+yarn install
+```
+
+3. `.env.local` dosyasını oluşturun ve Gemini API anahtarınızı ekleyin:
+```bash
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+4. Geliştirme sunucusunu başlatın:
+```bash
+yarn dev
+```
+
+5. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
+
+### Geliştirici
+
+- Instagram: rasperon.c
+- Discord ID: 1108799838876868738
+- GitHub: rasperon/writewise
+
+### ⭐ Projeyi Destekleyin
+
+Eğer bu projeyi faydalı bulduysanız, GitHub'da yıldız vermeyi unutmayın! Bu, projenin daha fazla kişiye ulaşmasına yardımcı olur.
+
+### Lisans
+
+MIT
